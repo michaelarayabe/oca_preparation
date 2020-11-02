@@ -22,8 +22,7 @@ But
 SomeClassType c = new SomeClassType();
 SomeClassType d = c;
 
-C.value = d.value; they are dependent on eachother
-
+C.value = d.value; they are dependent on each other
 
 
 The answer will be 1 and 0;
