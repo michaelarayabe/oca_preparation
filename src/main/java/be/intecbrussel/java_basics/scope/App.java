@@ -46,12 +46,12 @@ public class App {
     public static void main(String[] args) {
 
         {
-            int number2 = 0; // block level scopt
+            int number2 = 0; // block level scope
         }
 
-        System.out.println(number1); //Accessable
-        //System.out.println(number2); //Inaccessable
-        //System.out.println(number3); //Inaccessable since we used it before it is declared!
+        System.out.println(number1); //Accessible
+        //System.out.println(number2); //Inaccessible
+        //System.out.println(number3); //Inaccessible since we used it before it is declared!
 
         int number3 = 0; // method level scope
     }
