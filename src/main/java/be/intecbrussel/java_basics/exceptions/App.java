@@ -14,6 +14,16 @@ Errors
 
 Are also the one our program can not recover from, but they are external to the applicaton. Ex: StackOverflowErroe, OutOfMemoryError
 
+Advantages of Exception Handeling
+
+	- Separating error-handling code from regular code
+	- Propagating errors up the call stack
+	- Grouping and differentiating error types
+
+
+Note: All exceptions thrown in a program are objects.
+
+
 
  */
 public class App {
